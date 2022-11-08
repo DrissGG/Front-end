@@ -1,0 +1,20 @@
+Bienvenue dans ce cours : 30 Exercices en CSS.
+
+Le but est de vous exercer en CSS, en vous mettant à l'épreuve et en améliorant vos compétences de recherche, de test et d'autocorrection.
+
+Vous avez ici deux dossier :
+
+- "Départ 30 Exercices CSS" est le dossier dans lequel vous allez résoudre tous les Exercices,
+il contient les 30 énoncés avec leurs ressources respectives.
+Une fois que vous avez essayé de résoudre un exercice, vous pouvez regarder la vidéo de correction.
+Pour bien regarder une vidéo de correction, vous pouvez mettre en commentaire ce que vous avez produit puis suivre la correction en codant avec moi.
+(raccourci pour mettre en commentaire dans un fichier autre que .txt : [ctrl + :])
+
+- "Fin 30 Exercices CSS" est le dossier qui contient le code source final de tous les exercices.
+Il peut vous servir si vous avez besoin du code d'un projet ou d'un exercice.
+Il peut également vous servir si vous avez suivi une vidéo et que votre code ne fonctionne pas, avant de crier au loup, vérifiez avec le code source final et tentez de trouver votre erreur, c'est très formateur.
+
+Vous pouvez me contactez très rapidement sur le Discord, en privé ou public et / ou demander de l'aide aux membres de la communauté ici : https://discord.gg/5n5MR2Z
+
+Bon code, bon apprentissage et à très vite,
+Enzo.

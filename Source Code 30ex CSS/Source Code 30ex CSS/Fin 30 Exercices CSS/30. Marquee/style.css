@@ -1,0 +1,42 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+    height: 100vh;
+    background-image: repeating-linear-gradient(135deg, rgba(93,93,93, 0.1) 0px, rgba(93,93,93, 0.1) 2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255));
+}
+
+.container {
+  overflow-x:hidden;
+  display: flex;
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%)
+}
+
+.txt {
+  flex-shrink: 0;
+  font-size: 150px;
+  animation: scrollTxt 25s linear infinite;
+}
+
+.t1 {
+  /* color: red; */
+}
+.t2 {
+  /* color: blue; */
+}
+
+@keyframes scrollTxt {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%)
+  }
+}

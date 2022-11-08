@@ -1,0 +1,114 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: Raleway, sans-serif;
+  background: #222;
+  padding-bottom: 400px;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+  color: #f1f1f1;
+  margin-top: 50px;
+  font-size: 50px;
+}
+
+.box {
+  background: crimson;
+  font-size: 20px;
+  color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Grid 1 */
+/* row = 150px */
+
+.grid1 {
+  max-width: 600px;
+  margin: 15px auto 150px;
+  display: grid;
+  grid-template-rows: repeat(4,150px);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+
+
+/* Grid 2 */
+/* row = 200px */
+
+.grid2 {
+  max-width: 600px;
+  margin: 15px auto 150px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template: repeat(2, 200px) / repeat(3, 1fr);
+  background: #fff;
+  color: #444;
+  padding: 10px;
+}
+
+.grid2 .b1 {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+}
+.grid2 .b2 {
+  grid-column: 3;
+  grid-row: 1 / 3;
+}
+.grid2 .b3 {
+  grid-column: 1;
+  grid-row: 2;
+}
+.grid2 .b4 {
+  grid-row: 2;
+  grid-column: 2
+}
+
+
+
+
+/* Grid 3 */
+/* Essayez de nommer les cellules des grilles */
+/* row = 100px */
+
+.grid3 {
+  max-width: 600px;
+  margin: 15px auto 150px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template: repeat(3, [row] 100px) / repeat(4, [col] 1fr);
+  background: #fff;
+  color: #444;
+  padding: 10px;
+}
+
+.grid3 .b1 {
+  grid-column: col / span 2;
+  grid-row: row;
+}
+.grid3 .b2 {
+  grid-column: col 3 / span 2;
+  grid-row: row;
+}
+.grid3 .b3 {
+  grid-column: col;
+  grid-row: row 2;
+}
+.grid3 .b4 {
+  grid-column: col 2 / span 3;
+  grid-row: row 2
+}
+.grid3 .b5 {
+  /* grid-column: col / span 4;
+  grid-row: row 3; */
+  grid-area: 3 / 1 / 4 / 5 ;
+  /* first row / first col / last row / last col */
+}

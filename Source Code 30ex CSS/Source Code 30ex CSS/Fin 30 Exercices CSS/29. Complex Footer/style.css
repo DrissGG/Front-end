@@ -1,0 +1,151 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Raleway, Helvetica, sans-serif;
+  background: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+}
+
+.global-container {
+  flex-grow: 1;
+  padding: 40px;
+  min-height: 800px;
+}
+
+.global-container h1 {
+  font-family: Open sans, sans-serif;
+  font-weight: 100;
+  text-align: center;
+  font-size: 40px;
+}
+h1 span {
+  font-family: Raleway, sans-serif;
+  font-weight: 600;
+}
+
+/* Footer */
+
+footer {
+  background: #17232d;
+  color: white;
+  padding-bottom: 50px;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 1100px;
+  margin: -100px auto 0;
+  padding: 0 20px;
+}
+
+.footer-form {
+  flex-basis: 60%;
+  background: rgb(255,115,0);
+  height: 350px;
+  padding: 70px;
+}
+
+.form-title {
+  font-size: 40px;
+  color: #f1f1f1;
+  margin-bottom: 75px;
+}
+
+.footer-form input {
+  border: none;
+  padding: 10px;
+  border-radius: 3px;
+  font-size: 18px;
+  width: 100%;
+}
+.footer-form button {
+  padding: 10px 5px;
+  border: none;
+  width: 100%;
+  margin-top: 10px;
+  background: #1a1a1a;
+  color: #f1f1f1;
+  font-size: 18px;
+}
+
+.about-footer,
+.medias-footer,
+.footer-list {
+  min-height: 250px;
+}
+.about-footer {
+  width: 40%;
+  padding: 90px 40px 0;
+}
+
+.footer-title {
+  font-size: 23px;
+  padding-bottom: 10px;
+}
+.footer-txt {
+  line-height: 1.4;
+}
+
+.footer-list,
+.medias-footer {
+  padding: 50px 0 0;
+  width: 33%;
+}
+
+.footer-list ul {
+  margin-left: 15px;
+}
+.footer-list ul li {
+  padding: 4px 0;
+}
+.medias-footer {
+  display: flex;
+}
+.medias-footer a {
+  flex-shrink: 0;
+  display: block;
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  background: #ff7300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.medias-footer img {
+  width: 30px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 600px){
+  .footer-container{
+    flex-direction: column;
+  }
+  .footer-form {
+    padding: 30px;
+  }
+  .footer-list,
+  .medias-footer,
+  .about-footer {
+    min-height: auto;
+    width: 50%
+  }
+  .about-footer {
+    padding: 40px 0 0;
+  }
+}
