@@ -101,3 +101,28 @@ img{
   width: 50px;
 
 }
+.floating-btn{
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: #f1f1f1 2px solid ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 0 0 0 #f1f1f1;
+  animation: pulse 1.3s infinite;
+}
+.floating-btn img{
+  width: 30px;
+}
+@keyframes pulse {
+  to{
+    box-shadow: 0 0 0 15px rgb(138, 41, 41, 0.01);
+  }
+  
+}
