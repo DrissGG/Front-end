@@ -114,7 +114,7 @@ img{
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  box-shadow: 0 0 0 0 #f1f1f1;
+  box-shadow: 0 0 0 0 #c72b2b;
   animation: pulse 1.3s infinite;
 }
 .floating-btn img{
@@ -122,7 +122,7 @@ img{
 }
 @keyframes pulse {
   to{
-    box-shadow: 0 0 0 15px rgb(138, 41, 41, 0.01);
+    box-shadow: 0 0 0 15px rgba(23, 143, 49, 0.01);
   }
   
 }
