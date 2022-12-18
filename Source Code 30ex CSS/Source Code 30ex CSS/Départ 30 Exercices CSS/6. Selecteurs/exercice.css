@@ -100,6 +100,7 @@ a[href^="https"]
 /* Vous avez besoin de faire deux sélections */
 .final-txt::first-line{
     background: crimson;
+
 }
 .final-txt::first-letter{
     font-size: 50px;
