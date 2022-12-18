@@ -70,7 +70,7 @@ nav a:hover::after{
   color: #f1f1f1;
   font-size: clamp(25px,7vw,110px);
   text-transform: uppercase;
-  font-size: 900;
+  font-size: 900px;
   letter-spacing: -1px;/*permet de rapprocher les letrre */
 
 }
